@@ -1,0 +1,14 @@
+package edu.mills.cs180;
+
+import static org.junit.jupiter.api.Assertions.assertTrue;
+import org.junit.jupiter.api.*;
+
+class PalindromeCheckerTest {
+
+    @Test
+    void isPalindrome_True_EmptyString() {
+        String s = "";
+        assertTrue(PalindromeChecker.isPalindrome(s));
+    }
+
+}
